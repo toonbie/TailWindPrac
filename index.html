@@ -6,15 +6,22 @@
     <script src="https://cdn.tailwindcss.com"></script> 
     <title>Tailwind Practice</title>
 </head>
-<body class="bg-sky-400">
-    
-    <div class="flex">
-        <div></div>
-        <image src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"></image>
-        <span><b>Victor Crest</b> 26</span><br>
-        <span></span>
-        <div></div>
+<body class="bg-cyan-400">
+    <div class="flex flex-col items-center justify-center w-screen h-screen relative -top-2" >
+        <div class="rounded-b-lg rounded-t-lg w-80 bg-white shadow-md">
+            <div class=" rounded-t-lg w-80 h-32 bg-gradient-to-t from-cyan-500 to-blue-500"></div>
+            <image class=" object-center mb-0 relative left-24 -top-16 border-white rounded-full border-4 size-28"src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"></image>
+            <div class=" relative -top-10 space-y-0 text-center w-80 "><b>Victor Crest</b> <span class="text-stone-500">26</span></div>
+            <div class="relative mb-0 -top-10 my-3 text-center w-80 text-stone-500 text-sm ">London</div>
+            <div class="my-0 pt-3 relative -top-3 gap-x-1 gap-y-1 border-t-2 border-stone-500 grid grid-cols-3 grid-rows-2 text-center w-80 justify-center ">
+                <div><b>80K</b></div>
+                <div><b>803K</b></div>
+                <div><b>1.4K</b></div>
+                <div class="text-sm text-stone-500">Followers</div>
+                <div class="text-sm text-stone-500">Likes</div>
+                <div class="text-sm text-stone-500">Photos</div>
+            </div>
+        </div>
     </div>
-
 </body>
 </html>
